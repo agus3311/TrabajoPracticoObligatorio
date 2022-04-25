@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de hoja de estilo .css-->
+    <link rel="stylesheet" href="./estilos/miestilo.css">
+    <!--Link de icono de pestaña .ico-->
+    <link rel="icon" href="./archivos/icon-transparente-01.ico">
+    <!--Fuente para el nav de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
+    <!--Link de los iconos de Font Awesome-->
+    <script src="https://kit.fontawesome.com/5ad5479532.js" crossorigin="anonymous"></script>
+    <!---->
+    <title>Chipacitos Ñasaindí</title>
+</head>
+<body>
+<!--Empieza el header-->
+<header>
+  <div class="headerinicio">
+    <!--Queda como comentario xq no se como colocar texto invisible para mejorar el posicionamiento de la 
+        pagina en los motores de busqueda, si pongo texto invisible deja un espacio y si le agrego al texto
+        invisible un h1 deja un espacio mas grande todavia
+        <div style="visibility: hidden"> Chipacitos Ñasaindí </div>-->
+    <a href="./index.html"><img class="imagenlogo" src="./archivos/header-Nasaindi-logo.png"></a>
+  </div>
+</header>
+<!--Termina el header-->
+<!--Empieza el nav-->
+<nav>
+  <div class="navinicio" >
+   <div class="grid">
+     <div class="a">
+     <a class="navinicio" href="index.html"> Home </a>
+     </div>
+     <div class="b">
+     <a class="navinicio" href="https://api.whatsapp.com/send?phone=543794601894&text=Hola!%20Quiero%20info%20de%20sus%20productos."> Comprar </a>
+     </div>
+     <div class="c">
+     <a class="navinicio" href="contacto.html"> Contactanos </a>
+     </div>
+     <div class="box">
+      <div class="container-1">
+          <span class="icon"><i class="fa fa-search"></i></span>
+          <input type="search" id="search" placeholder="Buscar..." />
+      </div>
+     </div>
+   </div>
+  </div>
+</nav>
+<!--Termina el nav-->
+<!--Empieza el main-->
+<main>
+<!--Empieza el section-->   
+    <section>
+      <div class="grid10">
+         <div class="mapa1">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14155.687851784647!2d-58.8113636!3d-27.5028023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ee5e98be9f891a1!2zQ2hpcGFjaXRvcyDDkWFzYWluZMOt!5e0!3m2!1ses-419!2sar!4v1650666071693!5m2!1ses-419!2sar" width="400" height="350" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         <div class="mapa2">
+         <h2>¿Dónde nos encontramos?</h2>
+         </div>
+         <div class="mapa3">
+         <h5> Nuestra dirección es: <br> Felipe Yofre 2961, Corrientes Capital.</h5> 
+         <h5> ¿Necesitás mas referencias? Calle de tierra y paralela <br> a la avenida, casa con portón marrón,
+              <br> muchas plantas y perros.</h5>
+         <h5> ¡No te olvides de tocar timbre!</h5> 
+         </div>
+      </div>
+         <div class="grid11">
+           <div class="con1">
+             <h2>Contactate</h2> <h2>con</h2> <h2>nosotros.</h2>
+           </div>
+           <div class="con2">
+             <form action="">
+               <div class="cont1"> <span>Nombre:</span>  <input type="text" name="Nombre" id="" placeholder="Ej. María" size="60" class="form0"></div>
+               <div class="cont2"> <span>Apellido:</span>  <input type="text" name="Apellido" id="" placeholder="Ej. Romero" size="60" class="form0"></div>
+               <div class="cont3"> <span>Mail:</span>  <input type="email" name="Mail" id="" placeholder="Ej.mariaromero@gmail.com" size="60" class="form0"></div>
+               <div class="cont4"> <span>Edad:</span>  <input type="radio" name="edad" value="1" id="" class="form0">Menos de 18 años.
+                                         <input type="radio" name="edad" value="2" id="">Entre 18 y 30 años.
+                                         <input type="radio" name="edad" value="3" id="">Entre 30 y 40 años.
+                                         <input type="radio" name="edad" value="1" id="">Más de 40 años.</div>
+               <div class="cont5">
+                 <span>Tipo de comentario:</span>  <select name="Tipo de consulta" id="" class="form0">
+                 <option value="">--Seleccione--</option>
+                 <option value="">Sugerencias.</option>
+                 <option value="">Quejas sobre productos.</option>
+                 <option value="">Vende nuestros productos.</option></select>
+               </div>
+               <div class="cont6">
+                 <textarea name="texto" id="" cols="80" rows="10" class="form0">Escriba aquí:</textarea>
+               </div>
+               <div class="cont7">
+                 <input type="submit" value="Enviar" class="form0">
+                 <input type="reset" value="Borrar" class="form0">
+               </div>
+             </form>
+           </div>
+         </div>
+    </section>
+</main>
+<!--Termina el main-->
+<!--Empieza el footer-->
+<footer>
+    <div class="footerinicio">
+      <div class="grid4">
+        <div class="deresv"> <h6 class="deresv">Industria Argentina.</h6> </div>
+        <div class="soc1"><a class="redsoc" href="https://www.facebook.com/chipacitos.nasaindi/" target="blank"><i class="fa-brands fa-facebook fa-xl"></i></a></div>
+        <div class="soc2"> <a class="redsoc" href="https://www.instagram.com/nasaindi.chipa/" target="blank"><i class="fa-brands fa-instagram fa-xl"></i></a></div>
+        <div class="soc3"> <a class="redsoc" href="mailto:nasaindi.chipacitos@gmail.com" target="blank"><i class="fa-light fa-at fa-xl"></i></a></div>
+      </div>
+    </div>
+</footer>
+<!--Termina el footer-->
+</body>
+</html>

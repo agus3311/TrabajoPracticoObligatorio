@@ -1,0 +1,393 @@
+/*Empieza el styling de index.html*/
+.imagenlogo{
+    width: 300px;
+}   
+.headerinicio{
+    text-align: center;
+    background-image: url(./fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.navinicio{ 
+    background-color: #F6EEA4;
+    color: #90683D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+}
+.navinicio:hover{ 
+    color: #F6BF7C;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+    grid-column-gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    align-items: center;
+    margin-top: 20px;
+    grid-template-areas: "d1 d1 d1 d1 d1 d1" "d2 d2 d3 d3 d4 d4";
+}
+.titulo1section{ 
+    font-weight: bold;
+}
+.dd{
+    background-color: #90683D;
+    color: #F6EEA4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    grid-area: d1;
+}
+.de{
+   grid-area: d2;
+}
+.df{
+   grid-area: d3;
+}
+.dg{
+   grid-area: d4;
+}
+.imgde, .imgdf, .imgdg{
+    width: 400px;
+    align-items: center;
+ }
+.animate__animated.animate__fadeIn{
+    --animate-duration: 2s;
+ }
+.grid2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    font-size: 20px;
+    background-color: #E3A662;
+    color: #3D3228;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.titulo2section{ 
+    font-weight: bold;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 300px 20px;
+    grid-template-areas: "A1 A1 A1 A1" "A2 A3 A4 A5" "B1 B2 B3 B4";
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #F5C86D;
+    color: #A75220;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.titulo3section{
+    grid-area: A1;
+    font-weight: bold;
+}
+.pro2{
+    grid-area: A2;
+}
+.pro3{
+    grid-area: A3;
+}
+.pro4{
+    grid-area: A4;
+}
+.pro5{
+    grid-area: A5;
+}
+.m1, .m2, .m3, .m4{
+    height: 260px;
+}
+.textm1{
+    grid-area: B1;
+}
+.textm2{
+    grid-area: B2;
+}
+.textm3{
+    grid-area: B3;
+}
+.textm4{
+    grid-area: B4;
+}
+.grid4{
+    display: grid;
+    background-color: #86705C;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3em;
+    grid-template-areas: "S1 S2 S3 . . . . . . . S0 S0";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: #F6BF7C;
+    padding: 10px;
+    align-items: center;  
+}
+.deresv{
+    grid-area: S0;
+    font-weight: bold;
+    font-size:large;
+}
+.soc1{
+    grid-area: S1;
+}
+.soc2{
+    grid-area: S2;
+}
+.soc3{
+    grid-area: S3;
+}
+.redsoc{ 
+    color: #F6BF7C;
+}
+.redsoc:hover{ 
+    color: #F5C86D;
+}
+/*Termina el styling de index.html*/
+/*Empieza el styling de vencimiento.html*/
+.grid5{
+    display: grid;
+    background-color: #E3A662;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 90px 130px 650px;
+    grid-template-areas: ". V1 V1 V1 V1 ." "V2 V2 V2 V2 V2 V2" "V3 V3 V3 V3 V3 V3";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: #A75220;
+    padding: 10px;
+    align-items: center; 
+    justify-items: center;
+    text-align: center; 
+    font-size: 2em;
+}
+.venc1{ 
+    grid-area: V1;
+}
+.venc2{ 
+    grid-area: V2;
+}
+.venc3{ 
+    grid-area: V3;
+}
+.imgvenc{ 
+    width: 800px;   
+}
+/*Termina el styling de vencimiento.html*/
+/*Empieza el styling de beneficios.html*/
+.grid6, .grid7, .grid8, .grid9{
+    display: grid;
+    background-color: #90683D;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 50px 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: #F6EEA4;
+    padding: 50px;
+    align-items: center; 
+    text-align: center; 
+    font-size: 1.2em;
+    grid-row-gap: 10px;
+}
+.grid6{ 
+    grid-template-areas: "L1 L1 L1 L1 L1 L1" "L3 L3 L3 L2 L2 L2" "L3 L3 L3 L2 L2 L2";
+}
+.benlec1{ 
+    grid-area: L1;
+}
+.benlec2{ 
+    grid-area: L2;
+}
+.benlec3{ 
+    grid-area: L3;
+}
+.grid7{
+    grid-template-areas: "H1 H1 H1 H1 H1 H1" "H2 H2 H2 H3 H3 H3" "H2 H2 H2 H3 H3 H3";
+}
+.benhue1{ 
+    grid-area: H1;
+}
+.benhue2{ 
+    grid-area: H2;
+}
+.benhue3{ 
+    grid-area: H3;
+}
+.grid8{
+    grid-template-areas:"Q1 Q1 Q1 Q1 Q1 Q1" "Q3 Q3 Q3 Q2 Q2 Q2" "Q3 Q3 Q3 Q2 Q2 Q2";
+}
+.benque1{ 
+    grid-area: Q1;
+}
+.benque2{ 
+    grid-area: Q2;
+}
+.benque3{ 
+    grid-area: Q3;
+}
+.grid9{
+    grid-template-areas: "M1 M1 M1 M1 M1 M1" "M2 M2 M2 M3 M3 M3" "M2 M2 M2 M3 M3 M3";
+}
+.benman1{ 
+    grid-area: M1;
+}
+.benman2{ 
+    grid-area: M2;
+}
+.benman3{ 
+    grid-area: M3;
+}
+.imgbenlec, .imgbenque, .imgbenhue, .imgbenman{ 
+    height: 450px;
+}
+/*Termina el styling de beneficios.html*/
+/*Empieza el styling de contacto.html*/
+.grid10{
+    display: grid;
+    background-color: #F6BF7C;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: "map2 map2 map2 map2 map2 map2" "map1 map1 map1 map3 map3 map3" ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: #A75220;
+    padding: 10px;
+    align-items: center; 
+    justify-items: center;
+    text-align: center; 
+    font-size: 1.5em;
+}
+.mapa1{ 
+    grid-area: map1;
+}
+.mapa2{ 
+    grid-area: map2;
+}
+.mapa3{ 
+    grid-area: map3;
+}
+.grid11{
+    display: grid;
+    background-color: #F6BF7C;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "con1 con1 con2 con2 con2 con2" "con1 con1 con2 con2 con2 con2 " ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: #A75220;
+    padding: 10px;
+    font-size: 1em;
+}
+.con1{ 
+    grid-area: con1;
+    text-align: center;
+    align-self: center;
+    font-size: 1.5em;
+}
+.con2{ 
+    grid-area: con2;
+    padding: 2em;
+}
+.cont1, .cont2, .cont3, .cont4, .cont5, .cont6, .cont7 { 
+    padding-top: 2em;
+}
+span{ 
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.form0{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: #A75220;
+    padding: 10px;
+    font-size: 1em;
+}
+/*Termina el styling de contacto.html*/
+/*Empiezan los breakpoints*/
+@media all and (max-width: 1200px) {
+    .grid1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 1.5fr 1.5fr;
+        align-items: center;
+        grid-template-areas: "d1 d1" "d2 d3" "d4 d4";
+        grid-row-gap: 10px;
+    }
+    .de, .df, .dg{
+        justify-self: center;
+    }
+}
+@media all and (max-width: 1110px) {
+    .grid3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr;
+        grid-template-areas: "A1 A1" "A2 A3" "A4 A5";
+        padding: 10px;
+        grid-row-gap: 10px;
+    }
+}    
+@media all and (max-width: 830px) {
+    .grid1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr;
+        align-items: center;
+        grid-template-areas: "d1" "d2" "d3" "d4";
+    }
+    .de, .df, .dg{
+        justify-self: center;
+    }
+    .grid2{
+        grid-template-rows: 0.5fr 1fr;
+    }
+}
+@media all and (max-width: 700px) {   
+    .grid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "A1" "A2" "A3" "A4" "A5";
+        grid-row-gap: 10px;
+        padding: 10px;
+    }
+    .headerinicio{
+        background-image: none;
+    }
+}
+@media all and (max-width: 640px) { 
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        align-items: center;
+        margin: 10px;
+    }
+}   
+/*Terminan los breakpoints*/
